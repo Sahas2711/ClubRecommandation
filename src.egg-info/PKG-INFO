@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package
+Home-page: https://github.com/Sahas2711/ClubRecommandation
+Author: Sahas
+Author-email: sahasnagar1234@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: numpy
+
+Club Recommandation system using Machine Learning
