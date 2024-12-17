@@ -1,5 +1,7 @@
 streamlit
-numpy
-
+scipy
+scikit-sklearn
+pandas==2.2.2
+numpy==1.26.4
 #local packages
 -e .
