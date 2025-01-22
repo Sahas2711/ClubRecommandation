@@ -11,6 +11,6 @@ setup(
         'streamlit',
         'pandas',
         'numpy',
-         'requirements.txt'
+         
     ],
 )
