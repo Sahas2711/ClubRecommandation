@@ -1,4 +1,4 @@
-pip==24.0.3
+pip==24.3.1
 altair==5.5.0
 annotated-types==0.7.0
 anyio==4.7.0
