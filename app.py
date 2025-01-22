@@ -13,7 +13,7 @@ st.markdown(
 club_skills_df = pd.read_excel('Dataset/Club_Skills_Dataset_Extended.xlsx')
 ratings_df = pd.read_excel('Dataset/Ratings_dataset.xlsx')
 
-# Preprocess DataQ
+# Preprocess Data
 club_skills_df.columns = club_skills_df.columns.str.strip()
 ratings_df.columns = ratings_df.columns.str.strip()
 club_skills_df.rename(columns={'Club': 'Club Name'}, inplace=True)
@@ -100,7 +100,7 @@ with col2:
                             <img src="{row['image_url']}" 
                                  style="width:150px; height:150px; object-fit:cover; border-radius:10px;" 
                                  alt="Club Image">
-                            <p style="font-size: 14px; margin-top: 10px;">⭐ Rating: {row['Rating']}</p>
+                            <p style="font-size: 14px; margin-top: 10px;"> Rating: {row['Rating']}</p>
                         </div>
                         """,
                         unsafe_allow_html=True
@@ -108,4 +108,4 @@ with col2:
 
 # Footer
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>Powered by Streamlit | © 2024 Club Elite</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>© 2024 Club Elite</p>", unsafe_allow_html=True)
