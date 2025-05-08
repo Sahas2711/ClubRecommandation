@@ -6,6 +6,27 @@ st.set_page_config(page_title="Club Recommendation System", layout="wide")
 from PIL import Image
 import base64
 import io
+st.markdown("""
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+
+        .stApp {
+            background-color: #f9f9f9;
+            color: #1f2937;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            color: #1f2937;
+        }
+
+        .block-container {
+            background-color: white;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # Simulate navigation with st.session_state
 if "page" not in st.session_state:
